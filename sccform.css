@@ -1,0 +1,94 @@
+  body{
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0%;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background: linear-gradient(to right , #003cff , #8306f8);
+        }
+        .nav-link{
+            color: azure;
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        @media screen and (max-width:500px) {
+            .nav-link{
+                font-size: 14px;
+            }
+        }
+        
+        .img1{
+            position: relative;
+            top: 20px;
+            left: 8%;
+        }
+        .img2{
+            position: relative;
+            top: 20px;
+            left: 65%;
+        }
+        .about h4 , .about h6{
+            font-size: 30px;
+            color: aliceblue;
+            font-weight: 600;
+            display: grid;
+            justify-self: start;
+            margin-left: 10px;
+        }
+        .about p{
+            font-size: 18px;
+            color: aliceblue;
+            font-weight: 300;
+            display: grid;
+            justify-self: start;
+            margin-left: 10px;
+        }
+        .agenda img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .join ,.agenda , .about{
+            display: grid;
+            place-items: center;
+            width: 80%;
+            background-color: #1313134b;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        .join h1 , .agenda h1 , .about h1{
+            text-transform: uppercase;
+            font-size: 50px;
+            color: aliceblue;
+            font-weight: 900;
+        }
+        .join label{
+            display: block;
+            width: 100%;
+            margin: 20px 0;
+            color: azure;
+        }
+        .join span{
+            font-size: 18px;
+            font-weight: 300;
+        }
+        .inputstyle{
+            font-size: 18px; 
+            background-color: transparent;
+            border-style: none;
+            border-bottom:solid 2px #6e6e6e ;
+            color: #6e6e6e;
+            padding: 7px 10px 0;
+        }
+        .inputstyle:focus{
+            outline: none;
+            box-shadow:0 0 5px #06dcf8 ;
+            border-radius: 10px;
+            border-style: none;
+            color: azure;
+        }
+        .inputstyle option{
+            background-color: #13131369;
+        }
+        footer{
+            background: #00000033;
+            height: 4.5rem ;
+        }
