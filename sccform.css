@@ -26,7 +26,7 @@
             top: 20px;
             left: 65%;
         }
-        .about h4 , .about h6{
+        .about h4 , .about h6, #info{
             font-size: 30px;
             color: aliceblue;
             font-weight: 600;
@@ -46,7 +46,7 @@
             width: 100%;
             border-radius: 10px;
         }
-        .join ,.agenda , .about{
+        .join ,.agenda , .about, .info{
             display: grid;
             place-items: center;
             width: 80%;
@@ -54,7 +54,7 @@
             margin-top: 30px;
             border-radius: 10px;
         }
-        .join h1 , .agenda h1 , .about h1{
+        .join h1 , .agenda h1 , .about h1, .info h1{
             text-transform: uppercase;
             font-size: 50px;
             color: aliceblue;
@@ -66,9 +66,10 @@
             margin: 20px 0;
             color: azure;
         }
-        .join span{
+        .join span , .qrcode #info {
             font-size: 18px;
             font-weight: 300;
+            color: azure;
         }
         .inputstyle{
             font-size: 18px; 
@@ -88,7 +89,12 @@
         .inputstyle option{
             background-color: #13131369;
         }
+        #info{
+          text-transform: capitalize;
+        }
         footer{
-            background: #00000033;
-            height: 4.5rem ;
+            background: #00000093;
+            height: 4rem ;
+            position:relative;
+            top: 100px;
         }
